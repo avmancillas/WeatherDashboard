@@ -1,0 +1,17 @@
+body{
+    background-color: #577390!important;
+}
+
+.btn-primary{
+    background-color: rgb(132, 0, 255);
+}
+
+.mt-3{
+    background-image: url("/Users/avi/Desktop/github/Week6/02-Homework/Main/weatherphoto1.jpeg");
+    background-size: 1000px;
+    font-size: 1.75rem;
+}
+
+.bg-light {
+    background-color: #577390!important;
+}

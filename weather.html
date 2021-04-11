@@ -7,21 +7,22 @@
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="style.css">
       <title>Weather Application</title>
   </head>
 
   <body>
-    <div class="container-fluid text-center text-white bg-dark p-2">
+    <div class="container-fluid text-center text-white bg-dark p-4">
         <h1>Weather Application</h1>
    </div>
 
    <div class="container-fluid">
        <div class="row">
-         <aside class="col-lg-3 bg-light">
+         <aside class="col-lg-2 bg-light">
           <h5 class="mt-1">Search for a City:</h5>
           <div class="form-inline form-group">
             <input class="form-control" type="text" id="search-value" />
-            <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i></button>
+            <button class="btn btn-primary" id="search-button"> <i class="submit">Search</i></i></button>
           </div>
           
           <ul class="list-group history" id="weatherhistory"></ul>
