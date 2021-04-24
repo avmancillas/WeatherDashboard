@@ -19,32 +19,80 @@
             <div class = "button">  
                 <aside class="col-lg-2 bg-light mt-1"> Search for City:</div>
                   <nav class="navbar navbar-light bg-light">
-                      <form class="form-inline form-group">
-                         <input class="form-control mr-sm-2" type="search" id= "search-value" placeholder="City" aria-label="Search">
-                         <button class ="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-btn">Search</button>
-                      </form>
+                      <div class="form-inline form-group">
+                         <input class="form-control mr-sm-2" id= "search-value" placeholder="City" aria-label="Search">
+                         <button class ="btn btn-outline-success my-2 my-sm-0" id="search-btn">Search</button>
+                      </div>
                  </nav>
                 </aside>
-                <div class ="search history"></div>
+                <div class ="search-history"></div>
             </div>
        </div>
        <div class="col-md-9">
             <div class= "card-row">
                 <div class="card">
                     <div class="card-body">
-                      <p class = "city"></p>
-                      <p class = "temperature"></p>
-                      <p class = "humidity"></p>
-                      <p class = "wind-speed"></p>
-                      <p class = "uv"></p>
+                      <p id = "cityNow"></p>
+                      <img src="" id = "iconNow"></img>
+                      <p id = "temperatureNow"></p>
+                      <p id = "humidityNow"></p>
+                      <p id = "wind-speedNow"></p>
+                      
                    </div>
                 </div>  
             </div>
         </div>  
               <div class="row" id = "weeklyForecast">
                   <h1>Five Day Forecast:</h1>
+                  <div class="card">
+                    <div class="card-body">
+                      <p id = "city1"></p>
+                      <img src="" id = "icon1"></img>
+                      <p id = "temperature1"></p>
+                      <p id = "humidity1"></p>
+                      <p id = "wind-speed1"></p>
+                    </div>  
+                   </div>
+                   <div class="card">
+                    <div class="card-body">
+                      <p id = "city2"></p>
+                      <img src="" id = "icon2"></img>
+                      <p id = "temperature2"></p>
+                      <p id = "humidity2"></p>
+                      <p id = "wind-speed2"></p>
+                    </div>
+                  </div>
+                   <div class="card">
+                    <div class="card-body">
+                      <p id = "city3"></p>
+                      <img src="" id = "icon3"></img>
+                      <p id = "temperature3"></p>
+                      <p id = "humidity3"></p>
+                      <p id = "wind-speed3"></p>
+                    </div>  
+                   </div> 
+                   <div class="card">
+                    <div class="card-body">
+                      <p id = "city4"></p>
+                      <img src="" id = "icon4"></img>
+                      <p id = "temperature4"></p>
+                      <p id = "humidity4"></p>
+                      <p id = "wind-speed4"></p>
+                    </div>  
+                   </div> 
+                   <div class="card">
+                    <div class="card-body">
+                      <p id = "city5"></p>
+                      <img src="" id = "icon5"></img>
+                      <p id = "temperature5"></p>
+                      <p id = "humidity5"></p>
+                      <p id = "wind-speed5"></p>
+                    </div>  
+                   </div> 
+                 
+                </div>  
             
-                </div>     
+                
         </div>
     </div>
    
@@ -52,7 +100,7 @@
 
 
 
- <script src="script2.js"></script>   
+ <script defer src="script2.js"></script>   
 </body>
 
 </html>
